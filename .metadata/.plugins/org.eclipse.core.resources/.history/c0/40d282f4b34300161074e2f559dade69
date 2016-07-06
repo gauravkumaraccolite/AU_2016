@@ -1,0 +1,18 @@
+/****************************************************************************
+* Copyright (c) 2016 by Accolite.com. All rights reserved
+*
+* Created date :: 7 Jul, 2016
+*
+*  @author :: gauravkumar
+* ***************************************************************************
+*/
+
+
+package com.accolite.doc;
+
+/**
+ * The Class Car.
+ */
+public class Car {
+
+}

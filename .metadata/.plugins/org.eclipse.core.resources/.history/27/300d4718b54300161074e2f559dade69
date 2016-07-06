@@ -1,0 +1,29 @@
+package com.accolite.doc;
+
+public class CalculatorDaoImpl implements CalculatorDao {
+
+	@Override
+	public int AddTwoNumbers(int input1, int input2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int AddThreeNumbers(int input1, int input2, int input3) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int MultiplyTwoNumbers(int input1, int input2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int MultiplyThreeNumbers(int input1, int input2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
