@@ -1,0 +1,16 @@
+package com.accolite.tortoisehare;
+
+
+
+public class Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		 Thread tortoise = new Thread();
+	     Thread hare = new Thread();
+	
+	
+	}
+
+}

@@ -29,5 +29,6 @@ public class Transation implements Runnable {
 		else {
 			System.out.println("Not enough in account for " + Thread.currentThread().getName() + " to withdraw "
 					+ acct.getBalance());
+			
 		}
 }}

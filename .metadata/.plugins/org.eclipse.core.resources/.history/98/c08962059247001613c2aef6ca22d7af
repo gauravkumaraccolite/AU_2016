@@ -1,0 +1,5 @@
+package com.accolite.blockingqueue;
+
+public class Producer {
+
+}

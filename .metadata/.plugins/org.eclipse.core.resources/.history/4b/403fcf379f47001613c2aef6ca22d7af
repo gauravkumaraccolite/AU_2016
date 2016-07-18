@@ -1,0 +1,11 @@
+package com.accolite.tortoisehare;
+
+public class Tortoise implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

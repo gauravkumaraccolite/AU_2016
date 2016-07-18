@@ -1,0 +1,26 @@
+package com.accolite.tortoisehare;
+
+
+
+public class Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		 Thread tortoise = new Thread(new TortoiseAndHare());
+	     Thread hare = new Thread(new TortoiseAndHare());
+	     Thread rain = new Thread(new TortoiseAndHare());
+	     tortoise.setName("Tortoise");
+	     hare.setName("Hare");
+	     rain.setName("Rain");
+	     tortoise.MAX_PRIORITY
+	     rain.start();
+	     hare.start();
+	     tortoise.start();
+	     
+	     
+	
+	
+	}
+
+}

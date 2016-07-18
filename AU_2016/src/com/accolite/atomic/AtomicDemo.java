@@ -7,15 +7,9 @@ public class AtomicDemo {
 		Counter counter = new Counter();
 		Counter counter1 = new Counter();
 		counter.start();
-		
-		counter1.start();
-	
 
-		
-		
-	
+		counter1.start();
+
 	}
-	
-	
-	
+
 }

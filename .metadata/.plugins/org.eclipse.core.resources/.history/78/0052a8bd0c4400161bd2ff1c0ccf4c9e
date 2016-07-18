@@ -1,5 +1,0 @@
-package com.accolite.demo;
-
-public interface Caluclator {
-
-}

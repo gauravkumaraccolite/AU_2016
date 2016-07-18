@@ -1,0 +1,17 @@
+package com.accolite.concurrency;
+
+public class Demo implements Runnable {
+
+	
+	     private Account acct = new Account();
+	     public static void main (String [] args) {
+	        AccountDanger r = new AccountDanger();
+	        Thread one = new Thread(r);
+	        Thread two = new Thread(r);
+	        one.setName("Fred");
+	        two.setName("Lucy");
+
+
+
+
+}

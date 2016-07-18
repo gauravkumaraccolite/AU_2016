@@ -1,0 +1,26 @@
+package com.accolite.tortoisehare;
+
+
+
+public class Demo {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+
+		 Thread tortoise = new Thread(new TortoiseAndHare());
+	     Thread hare = new Thread(new TortoiseAndHare());
+	     Thread rain = new Thread(new TortoiseAndHare());
+	     tortoise.setName("Tortoise");
+	     hare.setName("Hare");
+	     rain.setName("Cheetah");
+	     tortoise.setPriority(10);
+	     rain.setPriority(1);
+	     hare.setPriority(5);
+	     rain.start();
+	     hare.start();
+	     tortoise.start();
+	     rain.join();
+
+	}
+
+}

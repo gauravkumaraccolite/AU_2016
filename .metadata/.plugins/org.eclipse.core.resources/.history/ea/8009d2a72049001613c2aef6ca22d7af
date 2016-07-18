@@ -1,0 +1,47 @@
+package com.accolite.deadlock;
+class Account {
+    double balance;
+    int id;
+    public Account(int id, double balance){
+         this.balance = balance;
+         this.id = id;
+    }
+    void withdraw(double amount){
+         balance -= amount;
+    } 
+    void deposit(double amount){
+         balance += amount;
+    }
+}
+
+
+
+public class deadlockDemo {
+
+	  public static void main(String [] args){
+          final Account a = new Account(1,1000);
+          final Account b = new Account(2,300);
+          Thread a = new Thread(){
+                public void run(){
+                    transfer(a,b,200);
+                }
+          };
+          Thread b = new Thread(){
+                public void run(){
+                    transfer(b,a,300);
+                }
+          };
+          a.start();
+          b.start();
+    }
+    public static void transfer(Account from, Account to, double amount){
+         synchronized(from){
+              synchronized(to){
+                   from.withdraw(amount);
+                   to.deposit(amount);
+              }
+         }
+    }
+	
+	
+}

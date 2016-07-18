@@ -1,0 +1,11 @@
+package com.accolite.atomic;
+
+import java.util.concurrent.atomic.AtomicInteger;
+
+public class AtomicDemo {
+	public static void main(String[] args) {
+		AtomicInteger aI= new AtomicInteger() ;
+	}
+	
+	
+}
