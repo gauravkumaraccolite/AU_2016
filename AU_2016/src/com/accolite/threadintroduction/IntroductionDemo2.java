@@ -1,0 +1,12 @@
+package com.accolite.threadintroduction;
+
+public class IntroductionDemo2 {
+
+	 public static void main(String args[]){
+			MyRunnable myRunnable= new MyRunnable();
+			Thread T = new Thread(myRunnable);
+			T.start();
+		 }
+	
+	
+}

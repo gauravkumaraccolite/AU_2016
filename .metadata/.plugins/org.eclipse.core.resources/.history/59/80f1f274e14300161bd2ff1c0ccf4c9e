@@ -1,0 +1,27 @@
+/****************************************************************************
+* Copyright (c) 2016 by Accolite.com. All rights reserved
+*
+* Created date :: 7 Jul, 2016
+*
+*  @author :: gauravkumar
+* ***************************************************************************
+*/
+package com.accolite.egit;
+
+// TODO: Auto-generated Javadoc
+/**
+ * The Class Egit.
+ */
+public class Egit {
+
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("HELLO WORLD");
+	}
+
+}

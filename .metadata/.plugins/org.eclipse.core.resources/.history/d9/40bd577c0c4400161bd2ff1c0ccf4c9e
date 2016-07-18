@@ -1,0 +1,13 @@
+package com.accolite.demo;
+
+public class Employee {
+	int employeeId;
+	String employeeName;
+	String employeeDOB;
+	String employeeEmail;
+	String employeeMobileNumber;
+	
+	
+	
+	
+}

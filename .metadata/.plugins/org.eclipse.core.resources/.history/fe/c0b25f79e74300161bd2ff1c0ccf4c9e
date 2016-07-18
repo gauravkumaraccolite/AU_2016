@@ -1,0 +1,9 @@
+package com.accolite.doc;
+
+public interface CalculatorDao  {
+	public int AddTwoNumbers(int input1,int input2);
+	public int AddThreeNumbers(int input1,int input2,int input3);
+	public int MultiplyTwoNumbers(int input1,int input2);
+	public int MultiplyThreeNumbers(int input1,int input2);
+
+}
